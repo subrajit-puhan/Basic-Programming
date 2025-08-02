@@ -5,9 +5,9 @@ int main()
 {
     for (int i=1 ; i <= 100 ; i++)
     {
-        if(i % 3 == 0)
+        if(i % 15 == 0)
         {
-            cout << "Fizz" << endl;
+            cout << "FizzBuzz" << endl;
         }
         
         else if(i % 5 == 0)
@@ -15,9 +15,9 @@ int main()
             cout << "Buzz" << endl;
         }
         
-        else if(i % 15 == 0)
+        else if(i % 3 == 0)
         {
-            cout << "FizzBuzz" << endl;
+            cout << "Fizz" << endl;
         }
 
         else
