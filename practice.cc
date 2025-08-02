@@ -1,16 +1,12 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
 
-int function ( int a, int b){
-    if (a>b)
-        return a;
-    
-    else 
-        return b;
-}
+int main()
+{
+    for (int i=1 ; i <= 100 ; i++)
+    {
+        cout << i << endl
+    }
 
-
-int main() {
-
-    cout << function(18,10) << endl;
+    return 0;
 }
