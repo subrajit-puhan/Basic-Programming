@@ -12,6 +12,7 @@ palindrome_check
 factorial
 fibonacci
 FizzBuzz
+leetcode-5
 
 # Ignore VS Code workspace config (optional)
 .vscode/
