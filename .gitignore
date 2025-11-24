@@ -1,3 +1,17 @@
 FizzBuzz
 fibonacci
 factorial
+# Ignore macOS debug symbols
+*.dSYM/
+
+# Ignore compilation outputs / executables
+*.out
+*.o
+a.out
+palindrome_check
+factorial
+fibonacci
+FizzBuzz
+
+# Ignore VS Code workspace config (optional)
+.vscode/
